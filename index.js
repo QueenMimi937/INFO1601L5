@@ -4,7 +4,7 @@ const pi = 3.14;
 let area = radius * radius * pi;
 console.log(area);
 
-let name = "bob";
+let name = "bobb";
 let age = 24;
 
 console.log(typeof(name))//string
@@ -68,4 +68,4 @@ console.log(firstItem, arr);//22, [-5, 16, 33, 42, 103, 344]
 
 let reversed = arr.reverse();//creates a new array in reverse order 
 console.log(reversed);//[344, 103, 42, 33, 16, -5]
-console.log(arr.join('-'));//"-5-103-16-33-344-42" joins array with provided separator
+console.log(arr.join('-'));
